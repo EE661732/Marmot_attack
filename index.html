@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> //the names,instructions and email given here are only examples please change them before using the code
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -103,7 +103,7 @@ function checkName() {
     document.getElementById("request").classList.remove("hidden");
     document.getElementById("welcome").innerText = "Welcome, " + name;
 
-    const showFor = ["Jude", "Romy", "Remy", "William", "Steven"];
+    const showFor = ["Jude", "Romy", "Remy", "William", "Steven", "Reed", "Henery"];
     const hasSeen = localStorage.getItem("seenInstructions");
 
     if (showFor.includes(name) && !hasSeen) {
